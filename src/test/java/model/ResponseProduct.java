@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class ResponseProduct extends RequestProduct {
-    @Getter
     private String id;
     private String created;
     private String modified;
